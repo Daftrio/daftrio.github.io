@@ -31,20 +31,36 @@
     <div id="app"></div>
     <script src="https://unpkg.com/webamp"></script>
     <script>new Webamp({
-        initialTracks: [{
-            metaData: {
-                artist: "SBSTS (f4mi)",
-                title: "nvrfrgt32.dll",
-            },
-      
-            url: "https://files.catbox.moe/y7qn56.mp3",
-        },
+        initialTracks: [
+          {
             metaData: {
               artist: "SBSTS (f4mi)",
-              title: "i, Atkos",
+              title: "nvrfrgt32.dll",
             },
-
+            // NOTE: Your audio file must be served from the same domain as your HTML
+            // file, or served with permissive CORS HTTP headers:
+            // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+            url: "https://files.catbox.moe/y7qn56.mp3",
+          },
+          {
+            metaData: {
+              title: "SBSTS (f4mi)",
+              artist: "i, Atkos",
+            },
+            // NOTE: Your audio file must be served from the same domain as your HTML
+            // file, or served with permissive CORS HTTP headers:
+            // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
             url: "https://files.catbox.moe/fvn6yg.mp3",
+          },
+          {
+            metaData: {
+              title: "We Are Going To Eclecfunk Your Ass",
+              artist: "Eclectek",
+            },
+            // NOTE: Your audio file must be served from the same domain as your HTML
+            // file, or served with permissive CORS HTTP headers:
+            // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+            url: "https://raw.githubusercontent.com/captbaritone/webamp-music/4b556fbf/Eclectek_-_02_-_We_Are_Going_To_Eclecfunk_Your_Ass.mp3",
         }],
     
         initialSkin: {
