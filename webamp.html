@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daftrioamp</title>
+    <!-- WEBAMP... IT REALLY WHIPS THE LLAMA'S *** -->
+    
+    <link href="/webamp/style.css" rel="stylesheet" type="text/css" media="all">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:bold">
+    
+    <style>
+    h1 {
+      font-family: "Roboto Condensed", sans-serif;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>[ ダフトリオ ]</h1>
+
+    <p>this uses webamp for the music player!</p>
+    <p><strong>you can listen to my favourite music here! i do not provide a way to download these songs, as it would be considered piracy. i will link the artists' website so you can support them :)</strong></p>
+    <br>
+    <details>
+    <summary>MUSIC ARTISTS</summary>
+    <ul>
+    <li>currently none...</li>
+    </ul>
+    
+    <div id="app"></div>
+    <script src="https://unpkg.com/webamp"></script>
+    <script>new Webamp({
+        initialTracks: [{
+            metaData: {
+                artist: "foenom's grave",
+                title: "eaaaughhh 🥀🥀",
+            },
+      
+            url: "https://daftrio.neocities.org/hostsite/onfoenomgrave_eaaaughhh.wav",
+        }],
+    
+        initialSkin: {
+            url: 
+         "https://daftrio.github.io/web-winamp-skins/skins/daftrioamp.wsz"
+        },}).renderWhenReady(app);</script>
+
+  </body>
+</html>
+
+<!-- neocities aint got nothing on webamp's ability to say FUCK OFF. github resists webamp's ability. -->
