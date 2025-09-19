@@ -1,0 +1,1 @@
+const originalTitle = "welcometomypage"; let titleText = originalTitle; function scrollTitle() { document.title = titleText; titleText = titleText.substring(1) + titleText.charAt(0); setTimeout(scrollTitle, 300); } scrollTitle();
