@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/testxml.css"?>
+<!-- ascii art of the letters xml below!
+  x   x  m   m  l
+   x x   mm mm  l
+    x    m m m  l
+   x x   m   m  l
+  x   x  m   m  lllll
+-->
+<document>
+  <title1>Hello, world!</title>
+  <title2>The quick brown fox jumps over the lazy dog.</title2>
+  <body>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra ex a urna imperdiet bibendum. Proin molestie laoreet tortor, vitae placerat elit scelerisque ac. Ut vestibulum eget ligula eget euismod. Aenean iaculis metus ac ullamcorper hendrerit. Curabitur nec imperdiet augue, ut posuere tortor. Morbi sapien purus, posuere at quam ut, posuere sollicitudin ex. Suspendisse potenti. Cras tristique libero et diam congue, ut eleifend urna pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ut arcu id urna efficitur rutrum.
+
+Aliquam nec ullamcorper nisl. Nam auctor in arcu sit amet rutrum. Duis at tincidunt erat. Nullam egestas vehicula nisl non dignissim. Cras gravida sapien ligula, et elementum nisi lobortis sed. Quisque est tortor, hendrerit in quam sit amet, pharetra varius nulla. Maecenas scelerisque odio nibh, eget interdum lacus aliquam sed.
+
+Aenean rutrum est nibh, nec lacinia tellus bibendum vitae. Nunc mi erat, porta eu leo sit amet, pulvinar tincidunt orci. Praesent ultrices orci eu arcu euismod rhoncus. Morbi non orci quis turpis scelerisque pellentesque. Pellentesque nec lorem metus. Nam tempus pellentesque leo sit amet efficitur. Morbi in ipsum eleifend, auctor lectus ut, rhoncus arcu. Curabitur lobortis urna ut elementum imperdiet. Proin vehicula sagittis felis non scelerisque. Vivamus mollis commodo tortor egestas iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam facilisis convallis quam eget pellentesque. 
+  </body>
+  <ascii>
+    H   H EEEEE L     L      OOO       W   W  OOO  RRRR  L     DDDD  !!
+    H   H E     L     L     O   O      W W W O   O R   R L     D   D !! 
+    HHHHH EEEEE L     L     O   O      W W W O   O RRRR  L     D   D !! 
+    H   H E     L     L     O   O  ,,   W W  O   O R   R L     D   D    
+    H   H EEEEE LLLLL LLLLL  OOO  ,,    W W   OOO  R   R LLLLL DDDD  !!
+  </ascii>
+</document>
