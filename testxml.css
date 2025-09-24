@@ -2,6 +2,7 @@ document {
   max-width: 500px;
   margin: auto;
   font-family: Consolas, "Lucida Console", "Courier New", monospace;
+  white-space: pre;
 }
 
 title1 {
