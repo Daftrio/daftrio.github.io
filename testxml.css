@@ -1,0 +1,24 @@
+document {
+  max-width: 500px;
+  margin: auto;
+  font-family: Consolas, "Lucida Console", "Courier New", monospace;
+}
+
+title1 {
+  font-size: 40px;
+  font-style: bold;
+}
+
+title2 {
+  font-size: 20px;
+  font-style: bold;
+}
+
+body {
+  font-size: 16px;
+}
+
+ascii {
+  background-color: black;
+  color: #00FF00;
+}
