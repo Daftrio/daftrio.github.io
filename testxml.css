@@ -1,8 +1,10 @@
 document {
-  max-width: 500px;
+  width: fit-content;
+  max-width: 1000px;
   margin: auto;
   font-family: Consolas, "Lucida Console", "Courier New", monospace;
-  white-space: pre;
+  white-space: pre-wrap;
+  padding: 5px;
 }
 
 title1 {
